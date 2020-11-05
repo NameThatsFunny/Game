@@ -40,13 +40,13 @@ def main():
     map_height = 43
 
     # Some variables for the rooms in the map
-    room_max_size = 10
-    room_min_size = 6
+    room_max_size = 15
+    room_min_size = 5
     max_rooms = 30
 
     fov_algorithm = 0
     fov_light_walls = True
-    fov_radius = 10
+    fov_radius = 5
 
     max_monsters_per_room = 3
     max_items_per_room = 10
