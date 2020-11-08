@@ -1,10 +1,11 @@
-import tcod as libtcod
+import libtcodpy as libtcod
+
+from game_messages import Message
 
 from game_states import GameStates
 
 from render_functions import RenderOrder
 
-from game_messages import Message
 
 def kill_player(player):
     player.char = '%'

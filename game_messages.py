@@ -1,4 +1,4 @@
-import tcod as libtcod
+import libtcodpy as libtcod
 
 import textwrap
 
