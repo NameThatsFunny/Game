@@ -37,12 +37,12 @@ def get_constants():
     map_height = 43
 
     room_max_size = 20
-    room_min_size = 12
+    room_min_size = 6
     max_rooms = 35
 
     fov_algorithm = 0
     fov_light_walls = True
-    fov_radius = 3
+    fov_radius = 5
 
     max_monsters_per_room = 3
     max_items_per_room = 4
