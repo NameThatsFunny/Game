@@ -20,10 +20,10 @@ from render_functions import RenderOrder
 
 
 def get_constants():
-    window_title = 'Roguelike Tutorial Revised'
+    window_title = 'Save The Prince'
 
     screen_width = 80
-    screen_height = 50
+    screen_height = 60
 
     bar_width = 20
     panel_height = 7
@@ -36,21 +36,21 @@ def get_constants():
     map_width = 80
     map_height = 43
 
-    room_max_size = 10
-    room_min_size = 6
-    max_rooms = 30
+    room_max_size = 20
+    room_min_size = 12
+    max_rooms = 35
 
     fov_algorithm = 0
     fov_light_walls = True
-    fov_radius = 10
+    fov_radius = 3
 
     max_monsters_per_room = 3
-    max_items_per_room = 2
+    max_items_per_room = 4
 
     colors = {
         'dark_wall': libtcod.Color(0, 0, 100),
         'dark_ground': libtcod.Color(50, 50, 150),
-        'light_wall': libtcod.Color(130, 110, 50),
+        'light_wall': libtcod.Color(250, 10, 50),
         'light_ground': libtcod.Color(200, 180, 50)
     }
 
